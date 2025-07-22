@@ -1,0 +1,5 @@
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">bb12-2401-4900-33b8-5e9d-dd8a-d365-6e2-85aa.ngrok-free.app</domain>
+    </domain-config>
+</network-security-config>

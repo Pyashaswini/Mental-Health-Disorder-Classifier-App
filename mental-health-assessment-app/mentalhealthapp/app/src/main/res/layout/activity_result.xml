@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C3F6FD"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:id="@+id/cardContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/border"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/openMapsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find Nearby Psychiatrists"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#5C08F2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="24dp" />
+</LinearLayout>
+    </RelativeLayout>
